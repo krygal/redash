@@ -128,6 +128,7 @@ ACCESS_CONTROL_ALLOW_HEADERS = os.environ.get("REDASH_CORS_ACCESS_CONTROL_ALLOW_
 # Query Runners
 default_query_runners = [
     'redash.query_runner.big_query',
+    'redash.query_runner.google_analytics',
     'redash.query_runner.google_spreadsheets',
     'redash.query_runner.graphite',
     'redash.query_runner.mongodb',
